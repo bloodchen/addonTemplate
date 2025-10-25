@@ -1,0 +1,30 @@
+{
+  "name": "domain-heroes-frontend",
+  "version": "1.0.0",
+  "description": "Vue3 + PixiJS game frontend for Domain Heroes Chrome Extension",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue3",
+    "pixijs",
+    "game",
+    "chrome-extension"
+  ],
+  "author": "Domain Heroes Team",
+  "license": "MIT",
+  "dependencies": {
+    "pixi.js": "^8.14.0",
+    "vue": "^3.5.22",
+    "vue-i18n": "^11.1.12",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.1.12"
+  }
+}

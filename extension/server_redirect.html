@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Server Redirect Handler</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+
+    .card {
+      max-width: 640px;
+      width: 100%;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    .title {
+      margin: 0 0 8px;
+      font-size: 18px;
+      color: #111827;
+    }
+
+    .message {
+      margin: 0;
+      font-size: 14px;
+      color: #374151;
+    }
+  </style>
+  <script src="tools.js"></script>
+  <script src="server_redirect.js"></script>
+  <meta http-equiv="referrer" content="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <h1 class="title">服务器回调处理</h1>
+      <p id="message" class="message">正在处理指令...</p>
+    </div>
+  </div>
+</body>
+
+</html>

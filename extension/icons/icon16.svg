@@ -1,0 +1,48 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="castleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="flagGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#castleGradient)" stroke="#fff" stroke-width="4"/>
+  
+  <!-- Castle base -->
+  <rect x="25" y="70" width="78" height="35" fill="#4a5568" rx="2"/>
+  
+  <!-- Castle towers -->
+  <rect x="20" y="45" width="18" height="40" fill="#2d3748" rx="2"/>
+  <rect x="45" y="35" width="18" height="50" fill="#2d3748" rx="2"/>
+  <rect x="70" y="35" width="18" height="50" fill="#2d3748" rx="2"/>
+  <rect x="95" y="45" width="18" height="40" fill="#2d3748" rx="2"/>
+  
+  <!-- Tower tops -->
+  <polygon points="20,45 29,35 38,45" fill="#e53e3e"/>
+  <polygon points="45,35 54,25 63,35" fill="#e53e3e"/>
+  <polygon points="70,35 79,25 88,35" fill="#e53e3e"/>
+  <polygon points="95,45 104,35 113,45" fill="#e53e3e"/>
+  
+  <!-- Flag -->
+  <rect x="52" y="15" width="3" height="25" fill="#8b4513"/>
+  <polygon points="55,15 75,20 55,25" fill="url(#flagGradient)"/>
+  
+  <!-- Windows -->
+  <rect x="27" y="50" width="6" height="8" fill="#ffd700" rx="1"/>
+  <rect x="49" y="40" width="6" height="8" fill="#ffd700" rx="1"/>
+  <rect x="74" y="40" width="6" height="8" fill="#ffd700" rx="1"/>
+  <rect x="99" y="50" width="6" height="8" fill="#ffd700" rx="1"/>
+  
+  <!-- Gate -->
+  <rect x="55" y="80" width="18" height="25" fill="#2d3748" rx="9"/>
+  <rect x="58" y="83" width="12" height="19" fill="#1a202c" rx="6"/>
+  
+  <!-- Gate details -->
+  <circle cx="61" cy="92" r="2" fill="#b7791f"/>
+  <rect x="60" y="88" width="2" height="8" fill="#8b4513"/>
+</svg>
