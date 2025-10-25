@@ -1,0 +1,8 @@
+APP_NAME=domain-heroes-backend
+PORT=8084
+NODE_ENV=development
+LOG_LEVEL=info
+LOG_DIR=./logs
+Modules=user,hero
+DB_URL=postgresql://udomain:udomain@localhost:5432/udomain
+REDIS_URL=redis://localhost:6379
